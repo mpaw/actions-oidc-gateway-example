@@ -1,0 +1,21 @@
+{
+  "name": "actions-oidc-gateway-example",
+  "version": "1.0.0",
+  "description": "A reference implementation of an OIDC gateway for GitHub Actions",
+  "main": "oidc_gateway.js",
+  "scripts": {
+    "start": "node oidc_gateway.js",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "keywords": ["github-actions", "oidc", "proxy", "gateway"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "jest": "^30.0.4"
+  },
+  "type": "module"
+}
