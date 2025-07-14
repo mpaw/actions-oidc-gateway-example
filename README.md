@@ -28,6 +28,25 @@ flowchart LR
     end
 ```
 
+## Running the Gateway
+
+This gateway is built with Node.js. To run it:
+
+```bash
+npm install
+npm start
+```
+
+The gateway will start on port 8000.
+
+## Testing
+
+Run the test suite with:
+
+```bash
+npm test
+```
+
 ## How would I use this?
 
 Once you customize and deploy your gateway, you can configure your Actions workflow to make use of it:
